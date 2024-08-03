@@ -493,7 +493,7 @@ const quizlist = [
     {
       id: "69",
       question: "キャンティ(ワイン)",
-      answer: "1",
+      answer: "2",
       explain: "イタリア・トスカーナ州のキャンティ地方で生産されるワイン",
       image: "",
     },
@@ -507,7 +507,7 @@ const quizlist = [
     {
       id: "71",
       question: "Questo testo è in francese?",
-      answer: "1",
+      answer: "2",
       explain: "イタリア語で「この文章はフランス語ですか？」",
       image: "",
     },
@@ -663,7 +663,7 @@ const quizlist = [
       question: "",
       answer: "1",
       explain: "ヌフ＝ブリザック。フランス東部のアルザス地方にある城郭都市。「ヴォーバンの防衛施設群」の1つとして世界遺産に登録されている",
-      image: "",
+      image: "./img/NeufBrisach.jpg",
     },
     {
       id: "95",
