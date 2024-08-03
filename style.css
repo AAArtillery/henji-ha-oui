@@ -381,8 +381,18 @@ button {
   .quiz {
     padding: 15px 0;
   }
+  .quiz-title {
+    font-size: 21px;
+  }
+  .quiz-title .br {
+    display: inline-block;
+  }
   .quiz-question {
     padding: 30px 15px 0px;
+    font-size: 28px;
+  }
+  .quiz-image {
+    max-height: 200px;
   }
   .ponpon {
     opacity: 0.3;
