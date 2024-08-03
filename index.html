@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>返事はOui !</title>
+  <link rel="icon" href="./favicon.ico">
+  <link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+
+<body>
+  <div id="wrapper">
+
+    <main class="quiz">
+      <div class="inner-block">
+
+        <div class="quiz-content">
+
+          <div class="finish">
+            <div class="score-wrap">
+              <span class="score">0</span>
+              <span class="ja">点</span>
+              <span class="full">／100点</span><br>
+              <span class="result">評価文</span>
+            </div>
+            <a href="./" class="goback-button">最初からやり直す</a>
+            <a href="https://x.com/intent/post?text=aaa" target="_blank" class="x-post">Ｘにポスト</a>
+          </div>
+
+          <div class="quiz-title">返事はOui！ これはフランス？Yes/Noクイズ</div>
+          <object data="./img/ponpon.svg" type="image/svg+xml" class="ponpon"></object>
+          <h2 class="quiz-question"></h2>
+          <img src="" class="quiz-image">
+
+          <ul class="quiz-answer">
+            <li>
+            <label class="quiz-button button01">
+              <input name="radio" type="radio" value="">
+              <span class="quiz-text01">Oui</span>
+            </label>
+            </li>
+            <li>
+              <label class="quiz-button button02">
+                <input name="radio" type="radio" value="">
+                <span class="quiz-text02">Non</span>
+              </label>
+            </li>
+            <div class="go-next"></div>
+          </ul>
+
+          <div class="explain">ここに解説が入る</div>
+
+        </div>
+
+      </div>
+
+    </main>
+
+  </div><!-- /wrapper -->
+
+  <script src="./jquery-3.7.1.min.js"></script>
+  <script src="./quiz.js"></script>
+  <script src="./common.js"></script>
+</body>
+
+</html>
