@@ -374,6 +374,21 @@ button {
   }
 }
 
+@media only screen and (max-width: 750px) {
+  .inner-block {
+    width: calc(100% - 30px);
+  }
+  .quiz {
+    padding: 15px 0;
+  }
+  .quiz-question {
+    padding: 30px 15px 0px;
+  }
+  .ponpon {
+    opacity: 0.3;
+  }
+}
+
 /* -----------------------------------------------
 * 追加分
 -------------------------------------------------- */
