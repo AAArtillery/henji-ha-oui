@@ -111,7 +111,7 @@
                 case 0: result = '2択クイズでこの点数を取るということは、あなたはおそらくフランス識者のデバッガーでしょう';
                   break;
               }
-              $('.x-post').attr('href','https://x.com/intent/post?url=https://aaartillery.github.io/henji-ha-oui!/&text=返事はOui! フランス的なものクイズであなたは' + score + '点！' + result);
+              $('.x-post').attr('href','https://x.com/intent/post?url=https://aaartillery.github.io/henji-ha-oui/&text=返事はOui! フランス的なものクイズであなたは' + score + '点！' + result);
               $('.result').text(result);
               //合計点レイヤー表示
               $('.finish').addClass('is-show');
